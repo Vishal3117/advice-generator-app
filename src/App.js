@@ -18,10 +18,10 @@ const App = () => {
 
     return (
         <div className='app'>
-            <div className='card'>
+            <div className='card'>    
                 <h1 className='heading'>{advice}</h1>
                 <button onClick={fetchAdvice} className='button'>
-                    <span>Give me an Advice..!!</span>
+                    <span>Give me an Advice..!!!</span>
                 </button>
             </div>
         </div>
